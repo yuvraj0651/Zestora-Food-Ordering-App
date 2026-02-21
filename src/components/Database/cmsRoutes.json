@@ -1,0 +1,93 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "type": "redirect",
+      "redirectTo": "/auth"
+    },
+    {
+      "path": "/auth",
+      "component": "AuthPage",
+      "protected": false
+    },
+    {
+      "path": "/home",
+      "component": "Homepage",
+      "protected": true,
+      "allowedRole": ["user", "admin"],
+      "props": ["filteredItems"]
+    },
+    {
+      "path": "/about",
+      "component": "About",
+      "protected": true,
+      "allowedRole": ["user", "admin"]
+    },
+    {
+      "path": "/menu",
+      "component": "MenuPage",
+      "protected": true,
+      "allowedRole": ["user", "admin"],
+      "props": ["filteredItems"]
+    },
+    {
+      "path": "/menu/:id",
+      "component": "ProductDetails",
+      "protected": true,
+      "allowedRole": ["user", "admin"]
+    },
+    {
+      "path": "/cart",
+      "component": "CartPage",
+      "protected": true,
+      "allowedRole": ["user", "admin"]
+    },
+    {
+      "path": "/checkout",
+      "component": "Checkout",
+      "protected": true,
+      "allowedRole": ["user", "admin"]
+    },
+    {
+      "path": "/wishlist",
+      "component": "Wishlist",
+      "protected": true,
+      "allowedRole": ["user", "admin"]
+    },
+    {
+      "path": "/compare",
+      "component": "Compare",
+      "protected": true,
+      "allowedRole": ["user", "admin"]
+    },
+    {
+      "path": "/profile",
+      "component": "Profile",
+      "protected": true,
+      "allowedRole": ["user", "admin"]
+    },
+    {
+      "path": "/thankyou",
+      "component": "ThankYou",
+      "protected": true,
+      "allowedRole": ["user", "admin"]
+    },
+    {
+      "path": "/order-tracking",
+      "component": "OrderTracking",
+      "protected": true,
+      "allowedRole": ["user", "admin"]
+    },
+    {
+      "path": "/unauthorized",
+      "component": "UnAuthorized",
+      "protected": false
+    },
+    {
+      "path": "*",
+      "component": "NotFound",
+      "protected": true,
+      "allowedRole": ["user", "admin"]
+    }
+  ]
+}
