@@ -42,3 +42,9 @@ A real-world food ordering application with complete flow from browsing menu to 
 - Live order tracking
 - Payment gateway
 - Real-time status updates
+
+## 🚀 Installation  
+git clone https://github.com/your-repo  
+cd project  
+npm install  
+npm run dev  
