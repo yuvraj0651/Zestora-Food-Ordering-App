@@ -45,6 +45,7 @@ A real-world food ordering application with complete flow from browsing menu to 
 
 ## 🚀 Installation  
 git clone [https://github.com/your-repo ](https://github.com/yuvraj0651/Zestora-Food-Ordering-App.git) 
+
 cd project  
 npm install  
 npm run dev  
