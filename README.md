@@ -3,9 +3,6 @@
 ## 📌 Overview
 A real-world food ordering application with complete flow from browsing menu to checkout using modern frontend technologies.
 
-## 🌐 Live Demo
-🔗 <Add link>
-
 ## 🛠️ Tech Stack
 - React.js
 - Redux Toolkit
