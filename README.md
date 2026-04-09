@@ -1,6 +1,11 @@
 # 🍔 Zestora - Food Ordering Web App
 ![Zestora Banner](https://github.com/user-attachments/assets/09547f1c-17f3-448d-969b-140271e93c35)
 
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Redux](https://img.shields.io/badge/Redux_Toolkit-593D88?style=for-the-badge&logo=redux&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript&logoColor=black)
+
 ---
 
 ## 📌 Overview
