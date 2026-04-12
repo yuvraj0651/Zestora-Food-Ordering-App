@@ -67,6 +67,11 @@ A real-world food ordering application with complete flow from browsing menu to 
 
 ---
 
+## Live Demo -
+[![Live Demo](https://img.shields.io/badge/Live-Demo-00C853?style=for-the-badge&logo=netlify)](https://zestora-shop.netlify.app/home)
+
+---
+
 ## 🚀 Installation
 
 Clone the repository and run locally:
